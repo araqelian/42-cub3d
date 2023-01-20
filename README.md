@@ -42,10 +42,10 @@
 The constraints are as follows:<br><br>
 
 <ul>
-  <li>You &nbsp;must &nbsp;use &nbsp;the miniLibX.&nbsp; Either&nbsp; the&nbsp; version &nbsp;that &nbsp;is &nbsp;available &nbsp;on &nbsp;the &nbsp;operating&nbsp; system,&nbsp; or &nbsp;from &nbsp;its &nbsp;sources. &nbsp;If &nbsp;you &nbsp;choose &nbsp;to &nbsp;work &nbsp;with &nbsp;the&nbsp; sources, &nbsp;you &nbsp;will &nbsp;need &nbsp;to &nbsp;apply &nbsp;the &nbsp;same &nbsp;rules &nbsp;for &nbsp;your &nbsp;libft &nbsp;as&nbsp; those&nbsp; written &nbsp;above &nbsp;in &nbsp;Common &nbsp;Instructions &nbsp;part.
-  <li>The &nbsp;management &nbsp;of &nbsp;your &nbsp;window &nbsp;must&nbsp; remain&nbsp; smooth:&nbsp; changing &nbsp;to &nbsp;another &nbsp;window, &nbsp;minimizing, &nbsp;etc.
-  <li>Display &nbsp;different &nbsp;wall &nbsp;textures &nbsp;(the&nbsp; choice &nbsp;is&nbsp; yours) &nbsp;that &nbsp;vary &nbsp;depending &nbsp;on &nbsp;which &nbsp;side &nbsp;the &nbsp;wall &nbsp;is &nbsp;facing &nbsp;(North, &nbsp;South, &nbsp;East, &nbsp;West).
-  <li>Your &nbsp;program &nbsp;must&nbsp; be &nbsp;able &nbsp;to &nbsp;set &nbsp;the &nbsp;floor&nbsp; and &nbsp;ceiling &nbsp;colors &nbsp;to &nbsp;two &nbsp;different &nbsp;ones.
+  <li>You &nbsp;must &nbsp;use &nbsp;the miniLibX.&nbsp; Either&nbsp; the&nbsp; version &nbsp;that &nbsp;is &nbsp;available &nbsp;on &nbsp;the &nbsp;operating&nbsp; system,&nbsp; or &nbsp;from &nbsp;its &nbsp;sources. &nbsp;If &nbsp;you &nbsp;choose &nbsp;to &nbsp;work &nbsp;with &nbsp;the&nbsp; sources, &nbsp;you &nbsp;will &nbsp;need &nbsp;to &nbsp;apply &nbsp;the &nbsp;same &nbsp;rules &nbsp;for &nbsp;your &nbsp;libft &nbsp;as&nbsp; those&nbsp; written &nbsp;above &nbsp;in &nbsp;Common &nbsp;Instructions &nbsp;part.<br><br>
+  <li>The &nbsp;management &nbsp;of &nbsp;your &nbsp;window &nbsp;must&nbsp; remain&nbsp; smooth:&nbsp; changing &nbsp;to &nbsp;another &nbsp;window, &nbsp;minimizing, &nbsp;etc.<br><br>
+  <li>Display &nbsp;different &nbsp;wall &nbsp;textures &nbsp;(the&nbsp; choice &nbsp;is&nbsp; yours) &nbsp;that &nbsp;vary &nbsp;depending &nbsp;on &nbsp;which &nbsp;side &nbsp;the &nbsp;wall &nbsp;is &nbsp;facing &nbsp;(North, &nbsp;South, &nbsp;East, &nbsp;West).<br><br>
+  <li>Your &nbsp;program &nbsp;must&nbsp; be &nbsp;able &nbsp;to &nbsp;set &nbsp;the &nbsp;floor&nbsp; and &nbsp;ceiling &nbsp;colors &nbsp;to &nbsp;two &nbsp;different &nbsp;ones.<br><br>
   <li>The &nbsp;program &nbsp;displays &nbsp;the &nbsp;image &nbsp;in &nbsp;a&nbsp; window &nbsp;and &nbsp;respects &nbsp;the &nbsp;following &nbsp;rules:
     <ul>
       <li>The&nbsp; left &nbsp;and &nbsp;right&nbsp; arrow &nbsp;keys &nbsp;of&nbsp; the &nbsp;keyboard &nbsp;must &nbsp;allow &nbsp;you &nbsp;to &nbsp;look &nbsp;left &nbsp;and &nbsp;right &nbsp;in &nbsp;the &nbsp;maze.
@@ -53,7 +53,7 @@ The constraints are as follows:<br><br>
       <li>Pressing &nbsp;ESC &nbsp;must &nbsp;close &nbsp;the&nbsp; window &nbsp;and &nbsp;quit &nbsp;the &nbsp;program &nbsp;cleanly.
       <li>Clicking &nbsp;on&nbsp; the&nbsp; red &nbsp;cross &nbsp;on &nbsp;the &nbsp;window’s &nbsp;frame &nbsp;must &nbsp;close&nbsp; the&nbsp; window &nbsp;and&nbsp; quit&nbsp; the &nbsp;program &nbsp;cleanly.
       <li>The &nbsp;use&nbsp; of &nbsp;images&nbsp; of &nbsp;the&nbsp; minilibX&nbsp; is &nbsp;strongly&nbsp; recommended.
-    </ul>
+    </ul><br><br>
     <li>Your &nbsp;program &nbsp;must &nbsp;take &nbsp;as &nbsp;a &nbsp;first&nbsp; argument&nbsp; a&nbsp; scene &nbsp;description &nbsp;file &nbsp;with&nbsp; the &nbsp;.cub &nbsp;extension.
     <ul>
       <li>The &nbsp;map &nbsp;must &nbsp;be&nbsp; composed&nbsp; of&nbsp; only&nbsp; 6 &nbsp;possible &nbsp;characters: &nbsp;0 &nbsp;for &nbsp;an &nbsp;empty &nbsp;space, &nbsp;1&nbsp; for&nbsp; a&nbsp; wall, &nbsp;and &nbsp;N,S,E &nbsp;or&nbsp; W &nbsp;for &nbsp;the &nbsp;player’s&nbsp; start&nbsp; position &nbsp;and&nbsp; spawning &nbsp;orientation.
