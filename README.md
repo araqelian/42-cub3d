@@ -34,7 +34,7 @@
   </tr>
    <tr>
     <td>Description</td>
-    <td>You&nbsp; must &nbsp;create &nbsp;a &nbsp;“realistic” &nbsp;3D &nbsp;graphical &nbsp;representation &nbsp;of &nbsp;the &nbsp;inside &nbsp;of &nbsp;a &nbsp;maze &nbsp;from &nbsp;a<br>first-person &nbsp;perspective. &nbsp;You &nbsp;have &nbsp;to &nbsp;create &nbsp;this&nbsp; representation &nbsp;using &nbsp;the &nbsp;Ray-Casting<br>principles &nbsp;mentioned &nbsp;earlier.</td>
+    <td>You&nbsp; must &nbsp;create &nbsp;a &nbsp;“realistic” &nbsp;3D &nbsp;graphical &nbsp;representation &nbsp;of &nbsp;the &nbsp;inside &nbsp;of &nbsp;a &nbsp;maze &nbsp;from<br>a&nbsp; first-person &nbsp;perspective. &nbsp;You &nbsp;have &nbsp;to &nbsp;create &nbsp;this&nbsp; representation &nbsp;using &nbsp;the &nbsp;Ray-Casting<br>principles &nbsp;mentioned &nbsp;earlier.</td>
   </tr>
 </table>
 
