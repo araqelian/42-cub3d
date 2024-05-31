@@ -21,9 +21,7 @@ void	get_correct_args(t_data *data)
 {
 	char	*new_arg_c;
 	char	*new_arg_f;
-	int		i;
-
-	i = -1;
+	
 	new_arg_c = get_correct_arg(data->parsing->arg_c);
 	new_arg_f = get_correct_arg(data->parsing->arg_f);
 	data->parsing->split_arg_c = ft_split(new_arg_c, ',');

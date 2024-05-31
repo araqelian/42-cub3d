@@ -99,7 +99,7 @@ void	check_map(t_data *data, int i, int j, int count)
 	{
 		j = 0;
 		len = ft_strlen(data->parsing->map[i]);
-		while (j < len && data->parsing->map[i][j] == ' ')
+		while (j < len && (data->parsing->map[i][j] == ' ' || data->parsing->map[i][j] == '\t'))
 			j++;
 		if (data->parsing->map[i][j] != '\0' && data->parsing->map[i][j] >= 'A' \
 		&& data->parsing->map[i][j] <= 'Z')

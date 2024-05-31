@@ -31,15 +31,15 @@ void	check_arg(t_data *data, int i, int j)
 	my_free(&str);
 	free_array(&check);
 	if (len == -1)
-		print_error(data, "Invalid map!", 1);
+		print_error(data, "Invalid map!aaaa", 1);
 }
 
 void	check_arg_map(t_data *data, int i)
 {
 	int	j;
 
-	i--;
-	while (i >= 0)
+	--i;
+	while (i > 0)
 	{
 		j = 0;
 		while (data->parsing->map[i][j] && (data->parsing->map[i][j] == ' ' \
@@ -47,7 +47,7 @@ void	check_arg_map(t_data *data, int i)
 			j++;
 		if (data->parsing->map[i][j] != '\0')
 			check_arg(data, i, j);
-		i--;
+		--i;
 	}
 }
 

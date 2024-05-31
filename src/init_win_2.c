@@ -56,7 +56,6 @@ int	draw_walls(t_data *data, char *dest, char *dest_2, int texx)
 {
 	double	step;
 	double	texpos;
-	int		texy;
 	int		i;
 	int		n;
 
@@ -68,7 +67,6 @@ int	draw_walls(t_data *data, char *dest, char *dest_2, int texx)
 	data->rcasting->lineheight / 2) * step;
 	while (i < data->rcasting->drawend)
 	{
-		texy = (int)texpos & data->img[n].width;
 		texpos += step;
 		dest = data->img[0].img + (i * data->img[0].size_line + \
 		data->game->index * (data->img[0].bpp / 8));

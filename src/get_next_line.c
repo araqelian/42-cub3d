@@ -100,7 +100,7 @@ char	*new_str_malloc(char *str)
 
 int	get_next_line(int fd, char **line)
 {
-	static char	*str[OPEN_MAX];
+	static char	*str[FOPEN_MAX];
 	char		*buffer;
 	int			read_size;
 

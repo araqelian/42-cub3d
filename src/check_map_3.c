@@ -60,14 +60,15 @@ void	add_map_arg_in_struct(t_data *data, int j)
 int	continue_check_arg(char **check, char *str)
 {
 	int	len;
-	int	k;
+	int	i;
 
-	k = -1;
-	while (++k < 6)
+	i = 0;
+	while (i < 6)
 	{
-		len = check_size_str(str, check[k]);
-		if (ft_strncmp(check[k], str, len) == 0)
+		len = check_size_str(str, check[i]);
+		if (ft_strncmp(check[i], str, len) == 0)
 			return (0);
+		++i;
 	}
 	return (-1);
 }

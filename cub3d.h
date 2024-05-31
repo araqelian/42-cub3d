@@ -13,6 +13,7 @@
 #ifndef CUB3D_H
 # define CUB3D_H
 
+# include <mlx.h>
 # include <stdio.h>
 # include <unistd.h>
 # include <stdlib.h>
@@ -21,21 +22,14 @@
 # include <fcntl.h>
 # include <string.h>
 # include <limits.h>
-# include "./mlx/mlx.h"
+
+# include "keys.h"
 
 # define WIDTH			2040
 # define HEIGHT			1000
 
 # define ROTATE_SPEED	0.15
 # define MOVE_SPEED		0.2
-
-# define RIGHT			124
-# define LEFT			123
-# define ESC			53
-# define A				0
-# define S				1
-# define D				2
-# define W				13
 
 # define BUFFER_SIZE 10
 

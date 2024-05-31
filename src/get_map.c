@@ -39,10 +39,8 @@ void	continue_read_map(t_data *data, char *map)
 
 void	read_map(t_data *data, char *line, char *map)
 {
-	int	i;
 	int	fd;
 
-	i = 0;
 	fd = open(map, O_RDONLY);
 	if (fd == -1)
 		print_error(data, strerror(errno), 1);
