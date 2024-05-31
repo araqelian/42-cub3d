@@ -65,3 +65,11 @@ The constraints are as follows:<br><br>
       <li>If &nbsp;any &nbsp;misconfiguration &nbsp;of &nbsp;any &nbsp;kind &nbsp;is&nbsp; encountered &nbsp;in &nbsp;the &nbsp;file, &nbsp;the &nbsp;program &nbsp;must &nbsp;exit&nbsp; properly &nbsp;and &nbsp;return &nbsp;"Error\n" &nbsp;followed&nbsp; by&nbsp; an &nbsp;explicit&nbsp; error &nbsp;message &nbsp;of &nbsp;your &nbsp;choice.
     </ul>
 </ul>
+
+<br><br>
+
+> [!NOTE]  
+> Because of 42 School norm requirements:
+> * Each function can't have more than 25 lines of code.
+> * All variables are declared and aligned at the top of each function.
+> * Project should be created just with allowed functions otherwise it's cheating.
