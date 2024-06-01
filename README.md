@@ -1,4 +1,4 @@
-# 🗣 Subject &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cub3d
+<h1 align="center"> 🗣 Subject &nbsp;&nbsp;&nbsp;&nbsp;cub3d </h1>
 
 <br>
 <table>
